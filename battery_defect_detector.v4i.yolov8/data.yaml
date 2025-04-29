@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['battery', 'crack', 'dent', 'objects']
+
+roboflow:
+  workspace: quality-inspection-4fems
+  project: battery-defect-detector
+  version: 4
+  license: Private
+  url: https://app.roboflow.com/quality-inspection-4fems/battery-defect-detector/4
